@@ -6,10 +6,9 @@ import Welcome from "@/components/Welcome";
 export default function Home() {
   return (
     <div>
-      <Navbar />
       <Welcome />
-      <TripList />
-      <TripDetail />
+      {/* <TripList />
+      <TripDetail /> */}
     </div>
   );
 }
